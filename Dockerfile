@@ -23,5 +23,5 @@ RUN dpkg -i `find 'lsq-debian-cli/target/' -name 'lsq-cli_*.deb'`
 # WARNING: Illegal reflective access by org.aksw.jena_sparql_api.mapper.proxy.MapperProxyUtils (file:/usr/share/lib/lsq-cli/lsq-debian-cli-2.0.0-SNAPSHOT-jar-with-dependencies.jar) to constructor java.lang.invoke.MethodHandles$Lookup(java.lang.Class)
 # RUN lsq analyze --help
 
-RUN lsq analyze SWDF-Queries.txt > SWDF-Queries-LSQ-analize.ttl
+RUN lsq analyze SWDF-Queries.txt > SWDF-Queries-LSQ-analyze.ttl
 
